@@ -1,0 +1,26 @@
+#omipressfb-buttons-container {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.omipressfb-button {
+    display: block;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.omipressfb-button:hover {
+    background-color: #2980b9;
+}
+
+.omipressfb-button .dashicons {
+    margin-right: 5px;
+}
