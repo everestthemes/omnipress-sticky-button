@@ -20,7 +20,7 @@ function omipressfb_add_sticky_buttons() {
             <?php
         }
         ?>
-
+        </ul>
     </div>
     <?php
 }
