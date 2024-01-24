@@ -4,6 +4,7 @@
     position: fixed;
     top: 50%;
     right: -100%;
+    z-index: 99999;
     transform: translateY(-50%);
     transition: all 0.2s ease;
 }
@@ -44,7 +45,7 @@ body.opfb-active #omipressfb-buttons-container {
 }
 
 #omipressfb-buttons-container ul li:last-child .omipressfb-button {
-    background: #175FFF;
+    background: #ff4900;
     margin-bottom: 0;
 }
 
